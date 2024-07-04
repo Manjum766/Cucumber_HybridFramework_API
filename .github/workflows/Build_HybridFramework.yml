@@ -59,7 +59,7 @@ jobs:
         # Optional plain body:
         body: Build job of ${{github.repository}} completed successfully!
         # Optional HTML body read from file:
-        html_body: Test-Report
+        html_body: '<h1>Test-Report</h1> <h3> Hi Team, <br> please find attached report</br><h3>'
         # Optional carbon copy recipients:
         #cc: kyloren@example.com,leia@example.com
         # Optional blind carbon copy recipients:
